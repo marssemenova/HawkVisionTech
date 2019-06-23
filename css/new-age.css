@@ -436,7 +436,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-color: white;
 }
 
-.btn-outline2:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+.btn-outline2:hover, .btn-outline2:focus, .btn-outline2:active, .btn-outline2.active {
   border-color: transparent;
   background: linear-gradient(to bottom, #45b26f 0%,#6196f9 100%) !important;
 }
