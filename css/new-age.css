@@ -352,11 +352,11 @@ section.contact ul.list-social li a {
 }
 
 section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+  background-color: #3b5998;
 }
 
 section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
+  background-color: #3b5998;
 }
 
 section.contact ul.list-social li.social-facebook a {
@@ -404,8 +404,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-shadow: 2px 2px 7px black;
   color: white;
   background:#466BB0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#466BB0), to(#466BB0));
-  background: linear-gradient(#466BB0, #466BB0);
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c9af4), to(#466BB0));
+  background: linear-gradient(#5c9af4, #466BB0);
 }
 
 .text-primary {
@@ -439,4 +439,63 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+section#contact {
+  background:#466BB0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c9af4), to(#466BB0));
+  background: linear-gradient(#5c9af4, #466BB0);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#contact .section-heading {
+  color: #fff;
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact .form-control:focus {
+  border-color: #fed136;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+section#contact :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+section#contact ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+section#contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
