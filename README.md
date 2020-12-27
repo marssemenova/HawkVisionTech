@@ -1,4 +1,4 @@
-# HackVision Tech
+# HawkVision Tech
 
 ## Inspiration
 A highly unfortunate fact remains that criminals can remain free due to crimes being undetected, slow response times, and victims held at gunpoint and unable to alert the authorities, proving a need to right these wrongs and stop these crimes before they progress too far. 
